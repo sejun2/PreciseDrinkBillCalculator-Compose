@@ -30,12 +30,12 @@ fun Heading(modifier: Modifier = Modifier) {
             .padding(start = 40.dp, top = 50.dp)
     ) {
         Text("정밀한 술값을", modifier = Modifier.animateOpacityAndTransitionY(), style = TextStyle(
-            fontSize = MaterialTheme.typography.headlineSmall.fontSize,
+            fontSize = MaterialTheme.typography.displaySmall.fontSize,
         ))
         Spacer(modifier = Modifier.padding(vertical = 4.dp))
         Text(
             "계산 해 보세요", style = TextStyle(
-                fontSize = MaterialTheme.typography.headlineLarge.fontSize
+                fontSize = MaterialTheme.typography.displayMedium.fontSize
             ), modifier = Modifier.animateOpacityAndTransitionY(transitionDelay = 650, opacityDelay = 1300)
         )
 
